@@ -1,10 +1,11 @@
 # TTB - Terrible Time Table generator
-OTL 평가를 기반으로 만들 수 있는 최악의 시간표를 만들어보자! 
+
+OTL 평가를 기반으로 만들 수 있는 최악의 시간표를 만들어보자!
 
 @[kook](https://github.com/team-kook) 무쓸모톤
 
-
 ## 구성
+
 1. OTL parser
 2. 시간표 생성
 3. 시간표 띄우기
@@ -29,11 +30,11 @@ thanks to [Li Kai](https://codepen.io/likai/pen/NrqXLm)
 학과와 리뷰의 가중치를 포함하여 서버에 request를 보내고 시간표를 받는다.
 서버로부터 받은 response를 가지고 시간표를 띄운다.
 
-
 ## 스크린샷
+
 ![screenshot](./screenshot.PNG)
 
 ## 작성자
+
 - [권기훈](https://github.com/KwonKyoon)
 - [황민영](https://github.com/Daniel-H-99)
-

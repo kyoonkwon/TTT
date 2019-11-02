@@ -171,6 +171,10 @@ line{
   top: 4em;
 }
 
+.hour__10__00 {
+  top: 6em;
+}
+
 .hour__10__30 {
   top: 7em;
 }
@@ -189,6 +193,10 @@ line{
 
 .hour__14__30 {
   top: 15em;
+}
+
+.hour__14__00 {
+  top: 14em;
 }
 
 .hour__15__00 {
