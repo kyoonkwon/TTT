@@ -1,0 +1,256 @@
+html,
+body {
+  font-family: Lato, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+header {
+  width: 100%;
+  height: 60px;
+  background-color: #ddd;
+}
+
+a{
+  text-decoration:none;
+  
+}
+
+a:visited{
+  color:black;
+}
+
+a:active{
+  color:black;
+}
+
+
+.topbar{
+  line-height: 60px;
+  margin-left: 20px;
+}
+
+ol {
+  list-style: none;
+}
+
+.result{
+  float:left;
+  width:700px;
+  margin-left: 20px;
+}
+
+.test{
+  border:solid 1px black;
+  height:170px;
+  padding: 10px;
+}
+
+.gajung{
+  font-size:10px;
+  width:80px;
+}
+
+label{
+  font-size:20px;
+}
+
+.search{
+  height: 40px;
+  line-height: 40px;
+}
+
+.map{
+  height:300px;
+}
+
+#kaimap{
+  float:left;
+  height:100%;
+}
+
+.route{
+  float:left;
+}
+
+.exam{
+  float:left;
+  width:130px;
+}
+
+.exam_info{
+  font-size:10px;
+}
+
+svg{
+  position: absolute;
+}
+
+line{
+  position: absolute;
+}
+
+.timetable {
+  width:600px;
+  display: flex;
+  background: #ecf0f1;
+  color: #444;
+  float:left;
+  margin-left:50px;
+}
+
+.nowMarker {
+  position: absolute;
+  border-bottom: 2px solid #ff7f6e;
+  z-index: 100;
+  width: 100%;
+  top: -2px;
+  transition: top 2s ease-in-out;
+}
+
+.timings {
+  margin: 1em 0 0 0;
+  padding: 0 3px 0 0;
+  width: 3em;
+  height: 34em;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-around;
+}
+
+.week {
+  margin: 0;
+  display: -webkit-flex;
+  display: flex;
+  overflow-x: auto;
+  padding: 0;
+  width: 100%;
+}
+
+.day {
+  position: relative;
+  border-bottom: 1px solid #ddd;
+  padding: 0;
+  min-width: calc(100.5% / 5);
+  transition: min-width 0.2s ease-in-out;
+}
+
+.name {
+  display: block;
+  height: 2em;
+  line-height: 2em;
+  text-align: center;
+}
+
+.hour-half {
+  position: absolute;
+  height: 3em;
+  text-indent: 3px;
+  width: 100%;
+  color: white;
+}
+
+.course{
+  font-size:6px;
+}
+
+.prof{
+  font-size:4px;
+}
+.loc{
+  font-size:4px;
+}
+
+.hour__08_00 {
+  top: 2em;
+}
+
+.hour__09__00 {
+  top: 4em;
+}
+
+.hour__10__30 {
+  top: 7em;
+}
+
+.hour__11__00 {
+  top: 8em;
+}
+
+.hour__12__00 {
+  top: 10em;
+}
+
+.hour__13__00 {
+  top: 12em;
+}
+
+.hour__14__30 {
+  top: 15em;
+}
+
+.hour__15__00 {
+  top: 16em;
+}
+
+.hour__15__30 {
+  top: 17em;
+}
+
+.hour__16__00 {
+  top: 18em;
+}
+
+.hour__17__00 {
+  top: 20em;
+}
+
+.hour__17__30 {
+  top: 21em;
+}
+
+.hour__19__00 {
+  top: 24em;
+}
+
+.hour--one {
+  height: 2em;
+}
+
+.hour--two {
+  height: 4em;
+}
+
+.hour--three {
+  height: 6em;
+}
+
+.hour--four {
+  height: 8em;
+}
+
+.hour--five {
+  height: 10em;
+}
+
+.class1 {
+  background: #3498db;
+}
+
+.class2 {
+  background: #27ae60;
+}
+
+.class3 {
+  background: #e74c3c;
+}
+
+.class4 {
+  background: #e67e22;
+}
+
+.class5 {
+  background: #1abc9c;
+}
